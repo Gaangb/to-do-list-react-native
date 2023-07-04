@@ -1,13 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Home from './src/screens/Home'
-import InicialScreen from './src/screens/InicialScreen';
+import Title from '../components/atoms/Title';
 
-export default function App() {
+export default function InicialScreen() {
   return (
     <View style={styles.container}>
-      <InicialScreen/>
+      <Title title={"Meu titulo"}/>
     </View>
   );
 }
